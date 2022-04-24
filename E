@@ -20,7 +20,7 @@ local function CheckAd()
 	if getgenv then
 		if not getgenv()["Youtube"] then
 			getgenv()["Youtube"] = true;
-			NotificationTable.Notify("{ Youtube }", "Youtube https://www.youtube.com/channel/UC92aBBDpwMA8DIv0UArKDKA/videos", "", {
+			NotificationTable.Notify("Youtube", "Youtube https://www.youtube.com/channel/UC92aBBDpwMA8DIv0UArKDKA/videos", "", {
 				Duration = 7,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
@@ -35,7 +35,7 @@ local function CheckAd()
 				}
 			})
 			wait(.3)
-			NotificationTable.Notify("{ Thanks For Use Script }", "Thanks For Use Script", "", {
+			NotificationTable.Notify("Thanks For Use Script", "Thanks For Use Script", "", {
 				Duration = 7,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
@@ -53,7 +53,7 @@ local function CheckAd()
 	else
 		if not _G["Youtube"] then
 			_G["Youtube"] = true;
-			NotificationTable.Notify("{ Thanks For Use Script }", "Thanks For Use Script", "", {
+			NotificationTable.Notify("Thanks For Use Script ", "Thanks For Use Script", "", {
 				Duration = 7,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
@@ -68,7 +68,7 @@ local function CheckAd()
 				}
 			})
 			wait(.3)
-			NotificationTable.Notify("{ Youtube }", "Youtube https://www.youtube.com/channel/UC92aBBDpwMA8DIv0UArKDKA/videos", "", {
+			NotificationTable.Notify("Youtube", "Youtube https://www.youtube.com/channel/UC92aBBDpwMA8DIv0UArKDKA/videos", "", {
 				Duration = 7,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
